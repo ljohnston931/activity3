@@ -1,3 +1,52 @@
 body {
     background-color: darkcyan;
+    color: ivory;
+}
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+ul {
+    font-size: 30px;
+}
+
+ol {
+    font-size: 30px;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    background-color: ivory;
+    color: black;
+    text-decoration: none;
+}
+
+nav .active {
+    background-color: palevioletred;
+}
+
+section {
+    display: flex;
+}
+
+aside {
+    flex: 1
+}
+
+article {
+    flex: 4
 }
